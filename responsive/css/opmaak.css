@@ -1,0 +1,138 @@
+*{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+#page1{
+    height: 100vh;
+    background: url("../img/achtergornd.jpg") fixed white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page2{
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(52, 4, 44, 0.98) 35%, rgb(18, 0, 29) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+#page3{
+    background-image: url("../img/DJI_0273.png"), linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(17, 17, 35) 35%, rgb(12, 17, 26) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#page4{
+    background-image: url("../img/DJI_0273.png"), linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(17, 17, 35) 35%, rgb(12, 17, 26) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav h1{
+    color: gray;
+    text-align: center;
+    font-size: 4vh;
+    border-bottom: solid black;
+    width: 40vh;
+    margin: auto;
+}
+.opdrachten{
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    background: rgba(97,0,241,0.29);
+    -webkit-box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+    -moz-box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+    box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+}
+.opdrachten:hover{
+    background: rgba(97, 0, 241, 0.67);
+}
+.textdiv{
+    width: 90%;
+}
+.aboutme{
+    width: 70%;
+    margin: auto;
+}
+.aboutme p{
+    color: aliceblue;
+    padding: 2vh;
+    font-size: 2vh;
+}
+.aboutme img{
+    width: 25%;
+}
+.p{
+    background: rgba(16,16,16,0.6);
+    margin-top: 10px;
+}
+.p:hover{
+    background: black;
+}
+
+/*einde pijltje*/
+.img-LOB{
+    height: 300px;
+}
+.imgage{
+    height: 200px;
+    object-fit: cover;
+}
+.imgage:hover{
+    zoom: 1;
+}
+.col-sm{
+    background: red;
+}
+.slideshow{
+    height: 300px;
+    object-fit: cover;
+}
+/*command ding*/
+.reactieform{
+background: #d3d3d3;
+    color: #ffffff;
+    padding: 30px;
+    background: rgba(97,0,241,0.29);
+    -webkit-box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+    -moz-box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+    box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+}
+.reactie{
+    background: #bebebe;
+    height: 200px;
+    overflow:auto;
+    color: #000000;
+    padding: 30px;
+    background: rgba(97,0,241,0.29);
+    -webkit-box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+    -moz-box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+    box-shadow: 4px 7px 4px 1px rgba(255, 255, 255, 0.69);
+
+}
+#LOB, #ICT{
+    transition: all 5s;
+}
+.contact_box{
+    background: #91829f;
+    width: 600px;
+    height: 260px;
+    border: solid white;
+}
+.profile{
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contact_box p{
+    float: left;
+    color: white;
+    padding: 5px;
+}
